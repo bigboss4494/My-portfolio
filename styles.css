@@ -57,7 +57,16 @@ h1 {
     font-weight: 700;
     font-size: 44px;
     margin-left: 200px;
+    color: var(--color-dark-blue-500);
 }
+
+h1:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-blue-600);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
+
 
 p {
     font-family: Heebo;
@@ -66,6 +75,14 @@ p {
     line-height: 100%;
     letter-spacing: 0px;
     margin-left: 200px;
+    color: var(--color-dark-blue-500);
+}
+
+p:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-blue-600);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
 }
 
 .button {
@@ -97,4 +114,9 @@ p {
     height: 243px;
     margin-left: 760px;
     border-radius: 999px;
+}
+
+.profile-img:hover {
+    outline: 2px solid var(--color-blue-600);
+    outline-offset: 0;
 }
