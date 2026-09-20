@@ -120,3 +120,143 @@ p:hover {
     outline: 2px solid var(--color-blue-600);
     outline-offset: 0;
 }
+
+
+ h4 {
+    display: flex;
+    color: var(--color-dark-blue-500);
+    width: 129px;
+    height: 60px;
+    margin-top: 150px;
+    margin-left: 200px;
+    background-color: var(--color-light-blue-100);
+    padding-top: 20px;
+    font-family: Heebo;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0px;
+}
+
+section {
+    background-color: var(--color-light-blue-100);
+}
+
+h4:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-blue-600);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
+
+.link {
+    display: flex;
+    padding-left: 1120px;
+    margin-top: -80px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+    height: 20px;
+    width: 208px;
+    font-family: heebo;
+}
+
+a {
+    color: var(--color-blue-600);
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-blue-600);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    background-color: 2px solid var(--color-blue-600);
+}
+
+.containers {
+    display: flex;
+    flex-direction: row;
+}
+
+.journey-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    background-color: white;
+    width: 418px;
+    height: 295px;
+    top: 664px;
+    margin-left: 148px;
+    opacity: 1;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.date1, .date2 {
+    width: 374px;
+    height: 34px;
+    margin-right: 200px;
+    margin-top: 5px;
+    font-family: heebo;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.date1:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-blue-600);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    background-color: 2px solid var(--color-blue-600);
+}
+
+.date:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-blue-600);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    background-color: 2px solid var(--color-blue-600);
+}
+
+.p1, .p2  {
+    width: 368px;
+    height: 117px;
+    margin-right: 200px;
+    margin-top: -5px;
+    font-family: heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+h3 {
+    font-family: heebo;
+    font-size: 26px;
+    font-weight: 700px;
+}
+
+h3:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-blue-600);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    background-color: 2px solid var(--color-blue-600);
+}
+
+.study-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    background-color: white;
+    width: 418px;
+    height: 295px;
+    top: 664px;
+    margin-left: 148px;
+    opacity: 1;
+    border-radius: 4px;
+    align-items: center;
+} 
+
+
+
